@@ -30,7 +30,9 @@
             <preferred-size width="150" height="50"/>
           </grid>
         </constraints>
-        <properties/>
+        <properties>
+          <font size="26"/>
+        </properties>
       </component>
       <component id="402df" class="javax.swing.JButton" binding="Spara">
         <constraints>
