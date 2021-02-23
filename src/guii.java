@@ -25,8 +25,14 @@ public class guii {
         Oppna.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent actionEvent) {
-
-                        String filename = JOptionPane.showInputDialog("")+(".txt");
+                JFileChooser fc = new JFileChooser();
+                int result = fc.showOpenDialog(null);
+                String filename;
+                if (result == JFileChooser.APPROVE_OPTION) {
+                    filename = fc.getSelectedFile().getAbsolutePath();
+                } else {
+                    filename = "exempel.txt";
+                }
                         FileReader fr = null;
                         try {
                             fr = new FileReader(filename);

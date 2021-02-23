@@ -1,0 +1,2 @@
+23/2-2021
+Nu har jag fått det att fungera så att jag kan öppna upp filer från en filechooser, men det funkar bara bra med filer som kommer från IntelliJ, programmet kan inte heller se texten i flera rader utan allt är bara på en oändlig rad.
